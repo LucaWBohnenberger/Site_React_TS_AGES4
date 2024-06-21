@@ -1,11 +1,19 @@
 *{
-
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
-  color: black;
-  background-color: #d9d9d9;
+  background-color: #eceaea;
 }
+
+.TESTE{
+  font-size: xx-large;
+  color: black;
+}
+
+.texto{
+  color: black;
+}
+
 
 .background_login{
   background-image: url("/img/BackgroundLogin.jpg");
@@ -26,12 +34,15 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  
 }
 
 .titulo_login{
   text-align: center;
   font-size: 2rem;
   margin-top: 1rem;
+  background-color: white;
+  color: black  ;
 }
 
 .input_text{
@@ -40,11 +51,12 @@
   border: 1px solid #ccc;
   border-radius: 0.5rem;
   font-size: 1rem;
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto; 
+  color: black;
 }
 
 .sub_titulo_tela_login{
@@ -52,11 +64,14 @@
   justify-content: left;
   padding-left: 3rem;
   margin: 0 auto; 
+  background-color: white;
+  color: black;
 }
 
 .input_block{
   margin: 1rem auto;
   padding: 0.5rem;
+  background-color: #ffffff;
 }
 
 .SubmitLogin{
@@ -72,3 +87,69 @@
   justify-content: center;
   align-items: center;
 }
+
+.barra_lateral{
+  width: 5rem;
+  height: 100vh;
+  background-color: rgb(235, 235, 235);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Logo{
+  width: 1.5rem;
+  height: 10%;
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  margin:0 auto;
+}
+
+.iconeUsers{
+  width: 4rem;
+  height: 4rem;
+  padding: 1rem;
+  color: #FFF;
+  background-color: #4D3147;
+  border-radius: 1rem;
+}
+
+.iconeRoxo{
+  color: white;
+  background-color: transparent;
+}
+
+.cliente_barra{
+  position: absolute;
+  left: 8rem;
+  top:2rem;
+}
+
+.titulo_cliente{
+  padding-top: 1rem;
+  padding-right: 1rem ;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.input_client{
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #eceaea;
+  font-size: 1rem;
+  background-color: #fafafa;
+  margin-top: 1rem;
+  box-shadow: 0px 4px 4px rgba(140, 140, 140, 0.13);
+  border-radius: 10px;
+}
+
+
+.client_bar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+

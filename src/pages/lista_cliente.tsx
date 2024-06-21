@@ -1,7 +1,11 @@
+import BarraLateral from "../componentes/reutilizavel/barra_lateral"
+import ClienteBarra from "../componentes/lista_clientes/cliente_barra"
+
 function ListaClientePages() {
     return (
-        <div>
-            <h1>Lista de Clientes</h1>
+        <div className="texto">
+            <ClienteBarra nome="Luca Wolffenbuttel Bohnenberger" />
+            <BarraLateral/>
         </div>
     )
 }
