@@ -1,16 +1,12 @@
 import Logo from "../../../img/Logo.svg";
 import { FiUsers } from "react-icons/fi";
 
-function BarraLateral() {
+function BarraLateral( item: {classe: string, icon: string}) {
   return (
-    <div className="barra_lateral">
+    <div className={item.classe}>
       <img src={Logo} alt="Logo" className="Logo"/>
       <button className="iconeRoxo">
-        <FiUsers
-        color="white"
-          className="iconeUsers"
-          style={{ color: "#FFFFFF !important", fontSize: "1.5rem" }}
-        />
+        <FiUsers className={item.icon}/>
       </button>
     </div>
   );

@@ -13,8 +13,13 @@
 
 .texto{
   color: black;
+  display: flex;
 }
 
+.flex{
+  display: flex;
+  
+}
 
 .background_login{
   background-image: url("/img/BackgroundLogin.jpg");
@@ -42,6 +47,7 @@
   text-align: center;
   font-size: 2rem;
   margin-top: 1rem;
+  border-radius: 1rem;
   background-color: white;
   color: black  ;
 }
@@ -92,11 +98,24 @@
 .barra_lateral{
   width: 5rem;
   height: 100vh;
+  position: fixed;
   background-color: rgb(235, 235, 235);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 999;
+}
+
+.barra_lateral2{
+  width: 5rem;
+  height: 100vh;
+  background-color: rgb(235, 235, 235);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 999;
 }
 
 .Logo{
@@ -108,13 +127,24 @@
   margin:0 auto;
 }
 
+
 .iconeUsers{
-  width: 4rem;
-  height: 4rem;
-  padding: 1rem;
+  width: 3rem;
+  height: 3rem;
+  padding: 0.7rem;
   color: #FFF;
   background-color: #4D3147;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.iconeUsers2{
+  width: 3rem;
+  height: 3rem;
+  padding: 0.7rem;
+  color: #4D3147;
+  background-color: #FFF;
   border-radius: 1rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .iconeRoxo{
@@ -122,10 +152,12 @@
   background-color: transparent;
 }
 
-.cliente_barra{
-  position: absolute;
-  left: 8rem;
-  top:2rem;
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  gap: 2rem;
+  margin-left: 5rem;
 }
 
 .titulo_cliente{
@@ -156,14 +188,14 @@
 .client_bar{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .barra_search{
   display: flex;
   align-items: center;
-  justify-items: center;
-  width: 100%;
+  justify-items: flex-start;
+  width: 25rem;
   height: 60%;
   border: 1px solid #eceaea;
   font-size: 1rem;
@@ -175,13 +207,16 @@
 }
 
 .clientes{
-  position: absolute;
-  left: 8rem;
-  top: 10rem;
+  padding: 0.5rem;
   background-color: #fff;
-  width: 12rem;
-  height: 16rem;
+  width: 13rem;
+  height: 16.8rem;
   border-radius: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.clientes:hover{
+    transform: scale(1.1);
 }
 
 .icon_cliente{
@@ -199,7 +234,9 @@
 }
 
 .nome_cliente{
-  font-size: 1.4rem;
+  padding: 0.4rem 0;
+  text-align: center;
+  font-size: 1rem;
   color: black;
   background-color: transparent;
   display: flex;
@@ -211,10 +248,16 @@
 }
 
 .pv{
+  color:black;
   background-color: white;
   font-size: 0.6rem;
   display: flex;
   justify-content: center;
+  margin-bottom: 0.2rem;
+}
+
+.viagem_hud{
+  background-color: white;
 }
 
 .prox_viagem{
@@ -233,13 +276,14 @@
   box-shadow: 0px 0.4rem 0.4rem rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
   margin: 0 auto;
-  margin-top: 1.5rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
+.inferior{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  gap: 1rem;
+}
 
 .pr{
   background-color: transparent;
@@ -260,9 +304,12 @@
   align-items: center;
 }
 
+.Name{
+  font-size: 2rem;
+}
+
 .zapmail{
   background-color: white;
-  position: absolute;
   display: flex;
   bottom: 0.1rem;
   width: 100%;
@@ -283,9 +330,11 @@
   background-color: white;
   display: flex ;
   align-items: center;
+  flex-direction: row;
   color: black;
   font-size: 0.6rem;
-  padding-right:0.5rem ;
+  padding-right: 0.5rem;
+  gap: 0;
   border-right: 0.08rem solid rgb(68, 68, 68, 0.3);
 }
 
@@ -315,4 +364,11 @@
   color: black;
   font-size: 0.6rem;
   padding-right:0.3rem ;
+}
+
+.clients_grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1.4rem;
+
 }

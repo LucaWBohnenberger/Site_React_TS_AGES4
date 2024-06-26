@@ -5,9 +5,13 @@ import HubClients from "../componentes/lista_clientes/hub_clients"
 function ListaClientePages() {
     return (
         <div className="texto">
-            <ClienteBarra nome="Luca Wolffenbuttel Bohnenberger" />
-            <HubClients/>
-            <BarraLateral/>
+            <BarraLateral classe="barra_lateral" icon="iconeUsers"/>
+            <div className="main">
+                <ClienteBarra nome="Luca Wolffenbuttel Bohnenberger" />
+                <div className="clients_grid">
+                    <HubClients/>
+                </div>
+            </div>
         </div>
     )
 }
