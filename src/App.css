@@ -16,10 +16,6 @@
   display: flex;
 }
 
-.flex{
-  display: flex;
-  
-}
 
 .background_login{
   background-image: url("/img/BackgroundLogin.jpg");
@@ -93,6 +89,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.4s;
+}
+
+.SubmitLogin:hover{
+  background-color: #795762;
 }
 
 .barra_lateral{
@@ -134,6 +135,7 @@
   padding: 0.7rem;
   color: #FFF;
   background-color: #4D3147;
+  border-radius: 1rem;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -370,5 +372,5 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 1.4rem;
-
 }
+

@@ -5,8 +5,11 @@ function inf_cliente(){
     return (
         <div className="flex">
             <BarraLateral classe="barra_lateral2" icon="iconeUsers2"/>
-            <Cabecalho/>
+            <div className="Page3">
+                <Cabecalho/>
+            </div>
         </div>
+        
     )
 }7
 

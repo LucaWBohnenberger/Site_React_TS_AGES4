@@ -1,6 +1,15 @@
+.flex{
+    display: flex;
+    width: 100%;
+  }
+
 .cabecalho{
-    top: 2rem;
-    left: 8rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    width: 100%;
 }
 
 .name_icon{
@@ -13,4 +22,22 @@
     border-radius: 2rem;
     width: 4rem;
     height: 4rem;
+}
+
+.nome_titulo{
+    color: black;
+    font-size: 1.4rem;
+}
+
+.Page3{
+    display: flex;
+    height: 10rem;
+    width: 100%;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 3rem;  
+  }
+
+.linha {
+
 }

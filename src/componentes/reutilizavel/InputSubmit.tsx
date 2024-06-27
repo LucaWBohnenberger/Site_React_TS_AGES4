@@ -1,6 +1,7 @@
 function InputSubmit(props: { text: string }) {
   return (
-    <input className="SubmitLogin" type="submit" value={props.text} />
+
+    <input className="SubmitLogin" type="submit" value={props.text} onClick={() => window.location.href = `/lista`} />
   );
 }
 

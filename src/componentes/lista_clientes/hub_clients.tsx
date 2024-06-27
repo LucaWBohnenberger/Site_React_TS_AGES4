@@ -7,16 +7,24 @@ import Data from "../../mock/Mock.json";
 
 function HubClients(){
 
+    // Função para redirecionar para a página de detalhes do cliente
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const handleCardClick = (item: any) => {
         window.location.href = `/lista/${item.id}`;
+    }
+
+    const inicias = (item: string) => {
+        let sigla = "";
+        sigla += item.charAt(0);
+        sigla += item.charAt(item.indexOf(" ")+1);
+        return sigla;
     }
 
     return (
         Data.map((item) => (
             <button type="button" className="clientes" onClick={() => handleCardClick(item)}>
                 <div className="icon_cliente"> 
-                    <p className="bk_transparente">RE </p>
+                    <p className="bk_transparente">{inicias(item.name)}</p>
                 </div>
                 <h3 className="nome_cliente">{item.name}</h3>
 
