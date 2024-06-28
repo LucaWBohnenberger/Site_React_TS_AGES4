@@ -18,6 +18,26 @@
             {
                 "feedback": "Incrível!",
                 "date": "17/06/2024"
+            },
+            {
+                "feedback": "Ótima experiência!",
+                "date": "18/06/2024"
+            },
+            {
+                "feedback": "Serviço impecável",
+                "date": "19/06/2024"
+            },
+            {
+                "feedback": "Incrível!",
+                "date": "17/06/2024"
+            },
+            {
+                "feedback": "Ótima experiência!",
+                "date": "18/06/2024"
+            },
+            {
+                "feedback": "Serviço impecável",
+                "date": "19/06/2024"
             }
         ],
         "visits": [
@@ -28,6 +48,14 @@
             {
                 "date": "17/06/2024",
                 "city": "Gramado"
+            },
+            {
+                "date": "11/01/2023",
+                "city": "Porto Alegre"
+            },
+            {
+                "date": "12/12/2004",
+                "city": "Lajeado"
             }
         ]
     },
@@ -54,6 +82,18 @@
             {
                 "feedback": "Belezas naturais incomparáveis",
                 "date": "01/03/2024"
+            },
+            {
+                "feedback": "Muito bom",
+                "date": "14/02/2024"
+            },
+            {
+                "feedback": "Incrível!",
+                "date": "15/03/2024"
+            },
+            {
+                "feedback": "O Hotel conta com uma ótima estrutura",
+                "date": "17/04/2024"
             }
         ],
         "visits": [
@@ -262,7 +302,20 @@
             {
                 "feedback": "Melhor viagem da minha vida!",
                 "date": "14/06/2024"
+            },
+            {
+                "feedback": "Melhor experiência de todas!",
+                "date": "15/06/2024"
+            },
+            {
+                "feedback": "Incrível!",
+                "date": "16/06/2024"
+            },
+            {
+                "feedback": "O Hotel conta com uma ótima estrutura",
+                "date": "17/06/2024"
             }
+
         ],
         "visits": [
             {
@@ -326,6 +379,22 @@
             {
                 "feedback": "Belezas naturais incomparáveis",
                 "date": "01/03/2024"
+            },
+            {
+                "feedback": "Muito bom",
+                "date": "16/06/2024"
+            },
+            {
+                "feedback": "Incrível!",
+                "date": "17/06/2024"
+            },
+            {
+                "feedback": "Excelente atendimento!",
+                "date": "18/06/2024"
+            },
+            {
+                "feedback": "Serviço de primeira qualidade",
+                "date": "19/06/2024"
             }
         ],
         "visits": [
@@ -366,6 +435,22 @@
             {
                 "feedback": "O Hotel conta com uma ótima estrutura",
                 "date": "17/04/2024"
+            },
+            {
+                "feedback": "Excelente atendimento!",
+                "date": "18/04/2024"
+            },
+            {
+                "feedback": "Serviço de primeira qualidade",
+                "date": "19/04/2024"
+            },
+            {
+                "feedback": "Muito bom",
+                "date": "20/04/2024"
+            },
+            {
+                "feedback": "Incrível!",
+                "date": "21/04/2024"
             }
         ],
         "visits": [
@@ -387,23 +472,51 @@
         "id": "000012",
         "cpf": "49289401052",
         "name": "Chico Paralex",
-        "email": "luccas@paralelo.com",
-        "birthDate": "21/06/2033",
+        "email": "chico@paralex.com",
+        "birthDate": "21/06/1842",
         "phone": "51933331212",
         "recurrence": "Bimestral",
-        "job": "Blogueiro",
-        "origin": "Instagram",
-        "firstTrip": "14/06/2024",
+        "job": "Escultor de Plastico",
+        "origin": "Carta correio",
+        "firstTrip": "10/02/1329",
         "history": [
             {
-                "feedback": "Melhor viagem da minha vida!",
+                "feedback": "Pior viagem da minha vida!",
                 "date": "14/06/2024"
+            },
+            {
+                "feedback": "Excelente atendimento!",
+                "date": "15/06/2024"
+            },
+            {
+                "feedback": "Serviço de primeira qualidade",
+                "date": "16/06/2024"
+            },
+            {
+                "feedback": "Muito bom",
+                "date": "17/06/2024"
+            },
+            {
+                "feedback": "Incrível! Nota D9",
+                "date": "18/06/2024"
+            },
+            {
+                "feedback": "Ótima experiência!",
+                "date": "19/06/2024"
+            },
+            {
+                "feedback": "Serviço impecável, melhor lugar que já fui!",
+                "date": "28/06/2024"
             }
         ],
         "visits": [
             {
                 "date": "14/06/2024",
                 "city": "Beto Carrero"
+            },
+            {
+                "date": "28/06/2024",
+                "city": "Xique-Xique"
             }
         ]
     }
